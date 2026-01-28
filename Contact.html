@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact | Badjiry Diakité</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        #mobile-menu { transition: all 0.3s ease-in-out; }
+    </style>
+</head>
+
+<body class="bg-gray-900 text-gray-300 font-sans selection:bg-sky-500 selection:text-white">
+
+    <nav class="bg-gray-900/80 sticky top-0 z-40 backdrop-blur-md border-b border-gray-800">
+        <div class="max-w-5xl mx-auto px-4">
+            <div class="flex items-center justify-between h-16">
+                <a href="index.html" class="text-2xl text-sky-400 font-bold tracking-tighter">Badjiry Diakité</a>
+                
+                <div class="hidden md:flex space-x-6">
+                    <a href="index.html" class="hover:text-sky-400 transition font-medium">Présentation</a>
+                    <a href="Propos.html" class="hover:text-sky-400 transition font-medium">À Propos</a>
+                    <a href="Projets.html" class="hover:text-sky-400 transition font-medium">Projets</a>
+                    <a href="Contact.html" class="text-sky-400 font-bold">Contact</a>
+                </div>
+
+                <button id="menu-btn" class="md:hidden text-gray-300 hover:text-sky-400 focus:outline-none">
+                    <svg class="h-7 w-7" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+                    </svg>
+                </button>
+            </div>
+
+            <div id="mobile-menu" class="hidden md:hidden pb-4 space-y-2">
+                <a href="index.html" class="block py-2 px-4 hover:bg-gray-800 rounded text-gray-300">Présentation</a>
+                <a href="Propos.html" class="block py-2 px-4 hover:bg-gray-800 rounded text-gray-300">À Propos</a>
+                <a href="Projets.html" class="block py-2 px-4 hover:bg-gray-800 rounded text-gray-300">Projets</a>
+                <a href="Contact.html" class="block py-2 px-4 bg-gray-800 text-sky-400 rounded font-bold">Contact</a>
+            </div>
+        </div>
+    </nav>
+
+    <main class="min-h-screen flex flex-col items-center justify-center px-4 py-16">
+        
+        <header class="text-center mb-12">
+            <h2 class="text-3xl md:text-5xl font-black text-white uppercase tracking-tighter max-w-2xl">
+                Vous souhaitez échanger ou <span class="text-sky-500">collaborer ?</span>
+            </h2>
+            <div class="h-1.5 w-20 bg-sky-500 mx-auto mt-6 rounded-full"></div>
+        </header>
+               
+        <section id="contact" class="w-full max-w-3xl bg-gray-800/50 backdrop-blur-sm p-8 rounded-3xl border border-gray-700 shadow-2xl">
+            <h3 class="text-xl font-bold text-sky-400 text-center mb-10 uppercase tracking-widest">Coordonnées</h3>
+
+            <div class="grid grid-cols-1 gap-6">
+                <div class="flex flex-col sm:flex-row justify-between items-center p-5 bg-gray-900/50 border border-gray-700 rounded-2xl group">
+                    <div class="flex items-center mb-2 sm:mb-0">
+                        <div class="w-10 h-10 bg-sky-500/10 rounded-full flex items-center justify-center mr-4">
+                            <i class="fas fa-user text-sky-500"></i>
+                        </div>
+                        <p class="text-gray-200 font-bold uppercase text-xs tracking-widest">Nom</p>
+                    </div>
+                    <p class="text-gray-400 font-medium">Badjiry Diakité</p>
+                </div>
+
+                <div class="flex flex-col sm:flex-row justify-between items-center p-5 bg-gray-900/50 border border-gray-700 rounded-2xl">
+                    <div class="flex items-center mb-2 sm:mb-0">
+                        <div class="w-10 h-10 bg-sky-500/10 rounded-full flex items-center justify-center mr-4">
+                            <i class="fas fa-envelope text-sky-500 group-hover:text-white"></i>
+                        </div>
+                        <p class="text-gray-200 font-bold uppercase text-xs tracking-widest">Email</p>
+                    </div>
+                    <p class="text-gray-400 font-medium break-all">DIAKITEBADJIRYPRO@GMAIL.COM</p>
+                </div>
+
+                <div class="flex flex-col sm:flex-row justify-between items-center p-5 bg-gray-900/50 border border-gray-700 rounded-2xl">
+                    <div class="flex items-center mb-2 sm:mb-0">
+                        <div class="w-10 h-10 bg-sky-500/10 rounded-full flex items-center justify-center mr-4">
+                            <i class="fas fa-phone text-sky-500 group-hover:text-white"></i>
+                        </div>
+                        <p class="text-gray-200 font-bold uppercase text-xs tracking-widest">Téléphone</p>
+                    </div>
+                    <p class="text-gray-400 font-medium">+33 6 98 07 73 79</p>
+                </div>
+            </div>
+
+            <div class="flex justify-center space-x-8 mt-12 pt-8 border-t border-gray-700/50">
+                <a href="https://www.linkedin.com/in/badjiry-diakite-info/" target="_blank" 
+                   class="flex flex-col items-center group">
+                    <div class="w-14 h-14 bg-gray-900 rounded-2xl flex items-center justify-center border border-gray-700 group-hover:border-sky-500 group-hover:text-sky-500 group-hover:-translate-y-2 transition duration-300 shadow-lg">
+                        <i class="fab fa-linkedin text-2xl"></i>
+                    </div>
+                    <span class="text-[10px] font-bold mt-2 uppercase tracking-widest text-gray-500 group-hover:text-sky-400 transition">LinkedIn</span>
+                </a>
+                
+                <a href="https://github.com/Badjiry" target="_blank" 
+                   class="flex flex-col items-center group">
+                    <div class="w-14 h-14 bg-gray-900 rounded-2xl flex items-center justify-center border border-gray-700 group-hover:border-white group-hover:text-white group-hover:-translate-y-2 transition duration-300 shadow-lg">
+                        <i class="fab fa-github text-2xl"></i>
+                    </div>
+                    <span class="text-[10px] font-bold mt-2 uppercase tracking-widest text-gray-500 group-hover:text-white transition">GitHub</span>
+                </a>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="max-w-5xl mx-auto mt-10 mb-10 p-6">
+        <div class="border-t border-gray-800 pt-8 flex flex-col md:flex-row justify-center md:justify-end items-center gap-4">
+            <div class="flex items-center space-x-3 bg-gray-800/40 px-5 py-2.5 rounded-full border border-gray-700 backdrop-blur-sm">
+                <p class="text-gray-300 font-bold uppercase tracking-tighter text-[10px] sm:text-xs">
+                    © Badjiry Diakité <span class="text-sky-500 mx-1">—</span> Étudiant BUT Informatique
+                </p>
+                <span class="text-sky-600 font-black">•</span> 
+                <span class="text-xs font-mono text-gray-500">2026</span>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Menu Mobile Toggle
+        const menuBtn = document.getElementById('menu-btn');
+        const mobileMenu = document.getElementById('mobile-menu');
+
+        menuBtn.addEventListener('click', () => {
+            mobileMenu.classList.toggle('hidden');
+        });
+    </script>
+</body>
+</html>
