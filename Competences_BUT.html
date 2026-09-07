@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Compétences BUT | Badjiry Diakité</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <style>
+        #mobile-menu { transition: all 0.3s ease-in-out; }
+    </style>
+</head>
+
+<body class="font-sans bg-gray-900 text-gray-300 selection:bg-sky-500 selection:text-white">
+
+    <!-- NAVIGATION -->
+    <nav class="bg-gray-900 sticky top-0 z-40 backdrop-blur-md bg-opacity-80 border-b border-gray-800">
+        <div class="max-w-5xl mx-auto px-4">
+            <div class="flex items-center justify-between h-16">
+                <a href="index.html" class="text-2xl text-sky-400 font-bold tracking-tighter">Badjiry Diakité</a>
+                <button id="menu-btn" class="md:hidden text-gray-300 hover:text-sky-400 focus:outline-none">
+                    <svg class="h-7 w-7" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+                    </svg>
+                </button>
+                <div class="hidden md:flex space-x-6">
+                    <a href="index.html" class="hover:text-sky-400 transition font-medium">Présentation</a>
+                    <a href="Competences_BUT.html" class="block py-2 px-4 bg-gray-800 text-sky-400 rounded font-bold">Compétences BUT</a>
+                    <a href="Propos.html" class="hover:text-sky-400 transition font-medium">À Propos</a>
+                    <a href="Projets.html" class="hover:text-sky-400 transition font-medium">Projets</a>
+                    <a href="Contact.html" class="hover:text-sky-400 transition font-medium">Contact</a>
+                </div>
+            </div>
+            <div id="mobile-menu" class="hidden md:hidden pb-4 space-y-2">
+                <a href="index.html" class="block py-2 px-4 hover:bg-gray-800 rounded">Présentation</a>
+                <a href="Competences_BUT.html" class="block py-2 px-4 bg-gray-800 text-sky-400 rounded font-bold">Compétences BUT</a>
+                <a href="Propos.html" class="block py-2 px-4 hover:bg-gray-800 rounded">À Propos</a>
+                <a href="Projets.html" class="block py-2 px-4 hover:bg-gray-800 rounded">Projets</a>
+                <a href="Contact.html" class="block py-2 px-4 hover:bg-gray-800 rounded">Contact</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- CONTENU PRINCIPAL -->
+    <main class="min-h-screen px-4 py-16">
+        <div class="max-w-5xl mx-auto space-y-12">
+            
+            <header class="text-center mb-16">
+                <h2 class="text-4xl md:text-5xl font-black text-white uppercase tracking-tighter">
+                    Passeport <span class="text-sky-500">Professionnel</span>
+                </h2>
+                <div class="h-1.5 w-20 bg-sky-500 mx-auto mt-4 rounded-full"></div>
+                <p class="mt-4 text-gray-400 text-lg">Bilan de compétences - BUT PASSERELLE INFO/SD - Badjiry Diakité</p>
+            </header>
+
+            <!-- INTRODUCTION -->
+            <section class="bg-gray-800/50 p-8 rounded-2xl border border-gray-700 shadow-lg">
+                <h3 class="text-2xl font-bold text-sky-400 mb-4 uppercase tracking-widest">Introduction</h3>
+                <div class="text-gray-300 space-y-4 leading-relaxed">
+                    <p>Mon parcours est marqué par une reconversion : je viens du domaine de la vente avec un BTS NDRC( Négociation de la Digitalistaion et de la Relation CLient), et j'ai fait le choix de me réorienter vers l'informatique avec détermination. Ce changement de trajectoire a exigé  beaucoup de travail, notamment lors de challenges intensifs comme la Piscine Epitech avant que j'arrive au sein de L'IUT de Villetaneuse.</p>
+                    <p>En me renseignant, j'ai découvert le BUT passerelle Technologie de l'information comme un nouveau départ pour apprendre des compétences notamment informatiques au sein de cet établissement. Je voyais cette formation comme un tremplin avant d'atteindre le BUT 3 Informatique. Ce choix représente une confirmation de ma vocation vers l'informatique car j'ai soif d'en apprendre plus sur ce domaine.</p>
+                    <p>Ce document retrace ce que j'ai réalisé et appris cette année, à travers mes situations d'apprentissage et évaluation (SAÉ) et mes 8 semaines de stage au sein de VIF AUTO. J'y aborde ce qui a bien fonctionné durant cette année, notamment mon sens du contact et ma capacité à collaborer en équipe pour la SAÉ, mais également mes lacunes, en particulier sur la partie système, réseau, et des matières SD où j'ai eu un peu plus de mal. 
+                        Venant d'un parcours de reconversion issu de la vente, ce changement de trajectoire m'a demandé beaucoup d'humilité et d'investissement. 
+                        Pour la suite, je fais le choix de poursuivre en BUT3 informatique, afin d'avoir un aspect plus généraliste et pouvoir consolider mes compétences. Cette année me permettra de prendre plus de recul sur mon choix final.</p>
+                </div>
+            </section>
+
+            <!-- C1 : RÉALISER -->
+            <section class="bg-gray-800/50 p-8 rounded-2xl border border-gray-700 shadow-lg">
+                <h3 class="text-2xl font-bold text-sky-400 mb-4 uppercase tracking-widest">C1 - Réaliser</h3>
+                <p class="text-gray-300 mb-6 leading-relaxed">
+                    Cette compétence a été au cœur de mes projets de développement.Je l'ai plus travaillé sur la SAÉ en Info acompagné de Goncalves de Veiga Noé, Fernandes Hugo et Sara YOUNGA. 
+                    Nous étions 4 à réaliser ce projet technique qui est axée sur la programmation web (Module UE4.1)objectif était de construire une plateforme de
+                    supervision audio multi-sites, avec un back-end en langage libre, une API REST et un front-end en langage
+                    libre également, afin d'afficher le tableau de bord des lecteurs en temps réel. C'est le projet où j'ai le plus
+                    mis en œuvre mes compétences en programmation, notamment la gestion des lecteurs, des playlists, des
+                    alertes, en pensant à l'architecture back et front dès le départ.</p>
+                <p class="text-gray-300 mb-6 leading-relaxed">Au niveau du stage, j'ai réalisé tous mes projets en autonomie. Cela a commencé avec une auto-formation en API et des extensions Chrome. 
+                    J'ai pu finir ma période de stage avec le projet final qui regroupe l'usage de l'API externe </p>
+                    
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+                    <div class="bg-gray-900 p-4 rounded-xl border border-gray-700">
+                        <h4 class="text-green-400 font-bold mb-2"><i class="fas fa-plus-circle mr-2"></i>Points forts</h4>
+                        <p class="text-sm">Capacité à comprendre et structurer mon code, lors de la réalisation du projet.</p>
+                    </div>
+                    <div class="bg-gray-900 p-4 rounded-xl border border-gray-700">
+                        <h4 class="text-orange-400 font-bold mb-2"><i class="fas fa-exclamation-triangle mr-2"></i>Points de vigilance</h4>
+                        <p class="text-sm">Revoir certains aspects techniques sur des fonctionnalités qui ralentissent leur fonctionnement</p>
+                    </div>
+                    <div class="bg-gray-900 p-4 rounded-xl border border-gray-700">
+                        <h4 class="text-sky-400 font-bold mb-2"><i class="fas fa-check-circle mr-2"></i>Acquis pour la suite</h4>
+                        <p class="text-sm">Prendre en main une stack complète (Front/Back) en autonomie ou en groupe restreint.</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- C2 : OPTIMISER -->
+            <section class="bg-gray-800/50 p-8 rounded-2xl border border-gray-700 shadow-lg">
+                <h3 class="text-2xl font-bold text-sky-400 mb-4 uppercase tracking-widest">C2 - Optimiser</h3>
+                <p class="text-gray-300 mb-6 leading-relaxed">
+                    Sur l'analyse du jeu de données consacré aux réseaux sociaux, réalisée avec Rayan MOHAMED et Soufiyen OULD BRAHAM dans le cadre du module qualité de développement, 
+                    la qualité s'est surtout jouée lors du nettoyage des données. 
+                    En effet, il a fallu traiter les âges incohérents, les caractères spéciaux dans les colonnes à valeurs numériques et les valeurs négatives, et tout cela sans fausser les statistiques. Prendre le temps de documenter chaque étape plutôt que de nettoyer de façon intuitive m'a appris à justifier chaque modification, et pas simplement à masquer les anomalies.
+                    <br>Côté stage, je choisis des données en fonction de mes besoins pour réaliser des fonctionnalités sur l'API externe, qui représente une bibliothèque de données sur des pièces détachées.Cela me permet de cibler des données et les utiliser.
+                </p>
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+                    <div class="bg-gray-900 p-4 rounded-xl border border-gray-700">
+                        <h4 class="text-green-400 font-bold mb-2"><i class="fas fa-plus-circle mr-2"></i>Points forts</h4>
+                        <p class="text-sm"> Nettoyage de données </p>
+                    </div>
+                    <div class="bg-gray-900 p-4 rounded-xl border border-gray-700">
+                        <h4 class="text-orange-400 font-bold mb-2"><i class="fas fa-exclamation-triangle mr-2"></i>Points de vigilance</h4>
+                        <p class="text-sm">Risque de perdre des données réels importantes</p>
+                    </div>
+                    <div class="bg-gray-900 p-4 rounded-xl border border-gray-700">
+                        <h4 class="text-sky-400 font-bold mb-2"><i class="fas fa-check-circle mr-2"></i>Acquis pour la suite</h4>
+                        <p class="text-sm">Tester sur un échantillon de données, la traiter et l'étudier.</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- C3 : ADMINISTRER -->
+            <section class="bg-gray-800/50 p-8 rounded-2xl border border-gray-700 shadow-lg">
+                <h3 class="text-2xl font-bold text-sky-400 mb-4 uppercase tracking-widest">C3 - Administrer</h3>
+                <p class="text-gray-300 mb-6 leading-relaxed">
+                   C'est incontestablement la partie la plus difficile de mon parcours et mon plus gros point faible actuel.
+                    Abordée lors d'une SAÉ du module administration système dédiée à l'installation et la configuration de Linux Kubuntu,
+                     il s'agissait de gérer l'installation à partir d'une machine vierge et d'effectuer les premiers réglages. 
+                     Cela m'a confronté à des notions d'administration que je ne retrouve pas dans mes projets de développement classiques. 
+                     Mon niveau reflète ici une réalité lucide : venant du BUT Passerelle, j'ai moins de bagage en système que les étudiants présents depuis le BUT1 informatique. 
+                     Les blocages rencontrés, comme lors de la gestion d'une clé API ou d'interactions logistiques, m'ont rappelé à quel point les environnements techniques peuvent être complexes et interdépendants.
+                     C'est donc mon chantier prioritaire pour progresser et consolider mes bases en BUT3.
+                </p>
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+                    <div class="bg-gray-900 p-4 rounded-xl border border-gray-700">
+                        <h4 class="text-green-400 font-bold mb-2"><i class="fas fa-plus-circle mr-2"></i>Points forts</h4>
+                        <p class="text-sm">Notions de base acquises sur l'installation Linux</p>
+                    </div>
+                    <div class="bg-gray-900 p-4 rounded-xl border border-gray-700">
+                        <h4 class="text-orange-400 font-bold mb-2"><i class="fas fa-exclamation-triangle mr-2"></i>Points de vigilance</h4>
+                        <p class="text-sm">Compétence très fragile. L'administration système est un axe d'amélioration pour moi, je souhaite m'y pencher davantage.</p>
+                    </div>
+                    <div class="bg-gray-900 p-4 rounded-xl border border-gray-700">
+                        <h4 class="text-sky-400 font-bold mb-2"><i class="fas fa-check-circle mr-2"></i>Acquis pour la suite</h4>
+                        <p class="text-sm">C'est pas un monde qui m'attire spécialement, je veux juste acquérir des bases solides pour la suite.</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- C4 : GÉRER -->
+            <section class="bg-gray-800/50 p-8 rounded-2xl border border-gray-700 shadow-lg">
+                <h3 class="text-2xl font-bold text-sky-400 mb-4 uppercase tracking-widest">C4 - Gérer</h3>
+                <p class="text-gray-300 mb-6 leading-relaxed">
+                    La SAÉ sur l'analyse du jeu de données sur les réseaux sociaux est mon projet le plus complet pour cette
+                    compétence. En effet, il a fallu traiter 5 000 utilisateurs et 39 variables avec Python, Pandas et Matplotlib
+                    pour nettoyer, explorer et visualiser. En dehors du côté technique, ce projet m'a appris à remettre en
+                    question les résultats au lieu de les prendre telles qu' ils sont réelement. Par exemple, on avait constaté qu'un fort
+                    engagement ne garantit pas la fidélité des utilisateurs, ou que les plus de 55 ans consomment plus de
+                    vidéos que les 18-24 ans.
+                </p>
+                 <p class="text-gray-300 mb-6 leading-relaxed">
+                   Sur la partie stage, cette compétence m'a énormément été utile au moment de la gestion de mes projets réalisés en autonomie. J'ai du gérer des données propres à l'activité de l'entreprise.
+                </p>
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+                    <div class="bg-gray-900 p-4 rounded-xl border border-gray-700">
+                        <h4 class="text-green-400 font-bold mb-2"><i class="fas fa-plus-circle mr-2"></i>Points forts</h4>
+                        <p class="text-sm">Réalisation d'un nettoyage d'un
+                                            grand jeu de données (5000
+                                            lignes, 39 variables) pour en
+                                            sortir des résultats
+                                            exploitables. 
+                                            <br> 
+                                            Vérification des données exploitables et apporter une analyse pertinente.
+                        </p>
+                    </div>
+                    <div class="bg-gray-900 p-4 rounded-xl border border-gray-700">
+                        <h4 class="text-orange-400 font-bold mb-2"><i class="fas fa-exclamation-triangle mr-2"></i>Points de vigilance</h4>
+                        <p class="text-sm">Il faut que je fasse attention
+                                            à la confidentialité des
+                                            données sensibles
+                        </p>
+                    </div>
+                    <div class="bg-gray-900 p-4 rounded-xl border border-gray-700">
+                        <h4 class="text-sky-400 font-bold mb-2"><i class="fas fa-check-circle mr-2"></i>Acquis pour la suite</h4>
+                        <p class="text-sm">La gestion de la donnée est une compétence importante pour la suite et qui m'intéresse aussi.</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- C5 : CONDUIRE -->
+            <section class="bg-gray-800/50 p-8 rounded-2xl border border-gray-700 shadow-lg">
+                <h3 class="text-2xl font-bold text-sky-400 mb-4 uppercase tracking-widest">C5 - Conduire</h3>
+                <p class="text-gray-300 mb-6 leading-relaxed">
+                    C'est surtout à travers la SAÉ de supervision audio, dans le cadre du module conduite de projet, que j'ai développé cette compétence. En effet, il a fallu définir un cahier des charges, choisir une stack technique en équipe et découper le travail à quatre. 
+                    Contrairement à un simple exercice, cela a demandé beaucoup de rigueur et d'endurance pour ne pas perdre le fil du projet tout en maintenant une communication fluide et efficace avec mes coéquipiers.<br>
+                    En Stage, c'est complétement différent car j'étais solo à réaliser mes projets. 
+                </p>
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+                    <div class="bg-gray-900 p-4 rounded-xl border border-gray-700">
+                        <h4 class="text-green-400 font-bold mb-2"><i class="fas fa-plus-circle mr-2"></i>Points forts</h4>
+                        <p class="text-sm">Organisé,autonomie.</p>
+                    </div>
+                    <div class="bg-gray-900 p-4 rounded-xl border border-gray-700">
+                        <h4 class="text-orange-400 font-bold mb-2"><i class="fas fa-exclamation-triangle mr-2"></i>Points de vigilance</h4>
+                        <p class="text-sm">Justification de mon choix envers mon tuteur. </p>
+                    </div>
+                    <div class="bg-gray-900 p-4 rounded-xl border border-gray-700">
+                        <h4 class="text-sky-400 font-bold mb-2"><i class="fas fa-check-circle mr-2"></i>Acquis pour la suite</h4>
+                        <p class="text-sm">j'ai conscience des responsabilités à conduire un projet et ça me plaît !</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- C6 : COLLABORER -->
+            <section class="bg-gray-800/50 p-8 rounded-2xl border border-gray-700 shadow-lg">
+                <h3 class="text-2xl font-bold text-sky-400 mb-4 uppercase tracking-widest">C6 - Collaborer</h3>
+                <p class="text-gray-300 mb-6 leading-relaxed">
+                    Une des compétences que j'ai pas réaliser en stage mais dans les deux SAÉ respectives (SD et info). 
+                    En effet, j'ai fait l'analyse du jeu de données des réseaux sociaux avec Rayan MOHAMED et Soufiyen OULD BRAHAM, et le projet supervision audio
+                    avec Goncalves de Veiga Noé, Fernandes Hugo et Sara YOUNGA . Il s'agissait de un groupe de trois et un groupe de quatre  avec deux dynamiques
+                    de travail différentes selon les sujets et les rôles de chacun. Par exemple j'avais un rôle plus de chef de groupe avec plus de responsabilités
+                    dans le groupe de quatre que de trois. 
+                </p>
+                    
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+                    <div class="bg-gray-900 p-4 rounded-xl border border-gray-700">
+                        <h4 class="text-green-400 font-bold mb-2"><i class="fas fa-plus-circle mr-2"></i>Points forts</h4>
+                        <p class="text-sm">Une bonne dynamqiue en travaux de groupe.</p>
+                    </div>
+                    <div class="bg-gray-900 p-4 rounded-xl border border-gray-700">
+                        <h4 class="text-orange-400 font-bold mb-2"><i class="fas fa-exclamation-triangle mr-2"></i>Points de vigilance</h4>
+                        <p class="text-sm">Valoriser le relationnel et apprendre de chacun</p>
+                    </div>
+                    <div class="bg-gray-900 p-4 rounded-xl border border-gray-700">
+                        <h4 class="text-sky-400 font-bold mb-2"><i class="fas fa-check-circle mr-2"></i>Acquis pour la suite</h4>
+                        <p class="text-sm">Partager le projet, l'organiser, le modfier à l'aide de github et d'autres outils de communication.</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- CONCLUSION -->
+            <section class="bg-sky-900/30 p-8 rounded-2xl border border-sky-700 shadow-lg text-center">
+                <h3 class="text-2xl font-bold text-sky-400 mb-4 uppercase tracking-widest">BILAN DE STAGE et CONCLUSION</h3>
+                <div class="inline-block bg-gray-900 px-6 py-4 rounded-xl border border-sky-500">
+                    <p class="text-white font-bold text-lg"><i class="fas fa-calendar-alt text-sky-500 mr-2"></i> Stage VIF AUTO</p>
+                    <p class="text-gray-400 mt-2">J'ai réalisé mon stage de huit semaines chez Vif Auto. Une petite entreprise spécialisée dans la vente de pièces et d'équipements pour voitures, située au 48 rue de Beaumont à Noisy-sur-Oise. Créée en décembre 2022 par deux ingénieurs informatiques, Abdelkrim et Mohamed Benhabib, l'entreprise a la particularité d'avoir ouvert son site internet et son magasin en même temps. Mes missions principales consistaient à créer un outil pour connecter un service externe (une API) afin de faciliter la gestion des stocks et des commandes, ainsi qu'à développer une extension pour le navigateur Chrome afin d'améliorer un catalogue en ligne appelé « Arggon »
+                        <br> Ce stage m'a beaucoup appris, notamment grâce à la façon de travailler de l'entreprise. Chez Vif Auto, les outils créés par les stagiaires sont testés de près et ne sont validés que s'ils sont vraiment utiles au quotidien. Cela m'a poussé à concevoir des programmes solides et pratiques pour le magasin. Côté technique, j'ai pu renforcer mes compétences en programmation et en connexion de services, tout en comprenant qu'un bon outil informatique doit s'intégrer facilement dans le travail de tous les jours. Sur le plan humain, cette autonomie m'a permis de prendre de vraies responsabilités de développeur et d'apprendre à régler les problèmes techniques avec méthode. 
+                        <br> Cette expérience a confirmé mon envie de créer des applications et des solutions concrètes. Elle valide aussi mon choix de continuer en troisième année de BUT informatique pour consolider mes bases avant de choisir une spécialité définitive.
+                    </p>
+                    <br>
+                    <p class="text-gray-300 mb-6 leading-relaxed max-w-3xl mx-auto">
+                     <p class="text-white font-bold text-lg">CONCLUSION</p>
+                   Cette année de BUT2 Passerelle a été celle du rebond et de la construction de bases solides. C'est aussi le moment où mon profil atypique marqué par ma reconversion après un parcours dans la vente et le commerce est devenu un véritable atout, notamment grâce à mon aisance relationnelle et ma capacité à collaborer.
+
+Mes compétences s'articulent aujourd'hui autour de contrastes clairs : je suis très à l'aise en conduite de projet et en développement, tandis que l'administration système et la gestion technique des données restent mes plus grands défis. Ce sont précisément ces axes que je souhaite consolider en BUT3.
+
+Plusieurs réflexes professionnels ont structuré mes apprentissages, que ce soit à travers mes SAÉ ou mon stage chez Vif Auto :
+
+    Tester avant de valider : évaluer la pertinence d'un choix ou d'un outil avant de l'implémenter.
+
+    Documenter rigoureusement : garder une trace de chaque étape pour garder le fil de son travail.
+
+    Communiquer sans attendre : remonter les problèmes et signaler immédiatement la moindre erreur aux responsables, plutôt que d'essayer de réparer les choses seul dans son coin.
+
+Pour la suite, je fais le choix de poursuivre en BUT3 informatique de manière généraliste, sans me spécialiser immédiatement. Cette année supplémentaire m'offrira le recul nécessaire pour affiner mon projet professionnel, notamment dans le secteur de la data, en m'appuyant sur des bases solides et consolidées. 
+                </p>
+                </div>
+            </section>
+
+        </div>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="max-w-5xl mx-auto pb-10 px-6">
+        <div class="border-t border-gray-800 pt-8 flex flex-col md:flex-row justify-center md:justify-end items-center gap-4 text-gray-400">
+            <div class="flex items-center space-x-3 bg-gray-800/50 px-5 py-2 rounded-full border border-gray-700">
+                <p class="font-bold uppercase tracking-widest text-[10px] sm:text-xs">
+                    © Badjiry Diakité <span class="text-sky-500 mx-1">—</span> Étudiant BUT Informatique
+                </p>
+                <span class="text-sky-600">•</span> 
+                <span class="text-xs font-mono">2026</span>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Menu Mobile Toggle
+        const menuBtn = document.getElementById('menu-btn');
+        const mobileMenu = document.getElementById('mobile-menu');
+
+        menuBtn.addEventListener('click', () => {
+            mobileMenu.classList.toggle('hidden');
+        });
+    </script>
+</body>
+</html>
